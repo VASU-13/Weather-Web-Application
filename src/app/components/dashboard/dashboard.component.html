@@ -1,0 +1,39 @@
+<ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" type="ball-scale-multiple">
+  <p style="font-size: 20px; color: white">Loading...</p>
+</ngx-spinner>
+
+<div class="heading">
+  <h1>Weather Web Application</h1>
+</div>
+
+
+
+<div class="container">
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <form 
+  [formGroup]="cityForm" (ngSubmit)="onCityFormSubmit()" class="card card-sm">
+        <div class="card-body row no-gutters align-items-center">
+          <div class="col-auto">
+            <i class="fas fa-search h4 text-body"></i>
+          </div>
+          <!--end of col-->
+          <div class="col">
+            <input  pattern="[a-zA-Z]*"
+              (keypress)="keyPress($event)"  formControlName="city" class="form-control form-control-lg form-control-borderless" type="text"
+              placeholder="Enter City">
+          </div>
+          <!--end of col-->
+          <div class="col-auto">
+            <button [disabled]="cityForm.invalid" class="btn btn-lg btn-success" type="submit">Search</button>
+          </div>
+          <!--end of col-->
+        </div>
+      </form>
+    </div>
+    <!--end of col-->
+  </div>
+</div>
+
+

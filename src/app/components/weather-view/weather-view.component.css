@@ -1,0 +1,79 @@
+.fa {
+    font-size: 30px;
+}
+
+.container{
+  text-align: center;
+}
+
+.container p , h4 , h1{
+  font-size:2rem;
+  font-weight:bold;
+}
+
+.container p {
+  margin-top: 2.5rem;
+}
+
+.container h1 {
+  margin-top: 2.5rem;
+}
+
+
+
+.img-responsive {
+
+  width: 12rem;
+  height: 12rem
+}
+
+.clouds{
+  margin-left: 5.4rem;
+  width: 16rem;
+  height: 16rem;
+  display: inline-block;
+
+}
+
+.clouds p{
+  text-align: center;
+  font-weight: bold;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  font-size:2rem;
+}
+
+
+
+
+.wind{
+  width: 16rem;
+  height: 16rem;
+  display: inline-block;
+
+}
+
+.wind p{
+text-align: center;
+font-weight: bold;
+margin-right: 2rem;
+ margin-top: 1.5rem;
+ font-size:2rem;
+}
+
+
+.rain{
+   width: 16rem;
+  height: 16rem;
+  display: inline-block;
+}
+
+.rain p{
+  text-align: center;
+  margin-right: 2rem;
+font-weight: bold;
+ margin-top: 1.5rem;
+ font-size:2rem;
+}
+
+

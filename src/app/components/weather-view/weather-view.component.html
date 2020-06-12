@@ -1,0 +1,48 @@
+
+<button type="button" class="close" data-dismiss="modal" (click)="closeDialog()" aria-label="close">
+  <span aria-hidden="true">&times;</span>
+</button>
+
+<div class="container">
+
+  <i class="fa fa-map-marker" aria-hidden="true"></i>
+  <h4> {{cityWeatherData.name}} , {{cityWeatherData.sys.country}} </h4>
+
+</div>
+
+<div class="container">
+  <p>  {{ cityWeatherData.weather[0].description }} </p>
+</div>
+
+<div class="container">
+  
+  <h1> {{cityTempFixed}}&deg;&nbsp;C </h1>
+
+</div>
+
+<div class="clouds">
+
+  <img class="img-responsive" src="../../../assets/img/clouds.jpg">
+ 
+  
+  <p> {{cityWeatherData.clouds.all}}&nbsp;%  </p>
+
+
+</div>
+
+
+<div class="wind">
+
+  <img class="img-responsive" src="../../../assets/img/wind.jpg">
+  
+    <p> {{cityWeatherData.wind.speed }}&nbsp;km/hr </p>
+
+</div>
+
+<div class="rain">
+
+  <img class="img-responsive" src="../../../assets/img/rain.jpg">
+  <p>  {{cityWeatherData.main.humidity}}&nbsp;% </p>
+  
+</div>
+

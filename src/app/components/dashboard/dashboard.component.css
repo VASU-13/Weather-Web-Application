@@ -1,0 +1,25 @@
+
+
+.heading h1{
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: bold;
+  font-size:5rem;
+}
+
+
+
+.container{
+  text-align: center;
+  margin-top: 13rem;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
